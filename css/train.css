@@ -1,0 +1,140 @@
+body {
+	background-image: url("../images/pennstation1.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  
+
+   
+
+}
+
+
+
+
+
+	h1 {
+		font-size: 90px;
+		text-align: center;
+
+}
+
+	h3 {
+		font-size: 30px;
+		text-align: center;
+	}
+
+
+	.form-group {
+		font-size: 20px;
+		
+	}
+
+	.panel-body {
+		font-size: 20px;
+	}
+
+footer {
+	color: white;
+	position: fixed;
+   	left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	body {
+	background-image: url("../images/pennstation1.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+	.jumbotron {
+		height: 17vh;
+		font-family: monospace;
+
+	}
+	
+
+	h1 {
+		font-size: 80px;
+		text-align: center;
+
+}
+
+	h3 {
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.form-group {
+		font-size: 35px;
+		height: 100px;
+		font-family: "Gill Sans", sans-serif;
+
+		
+	}
+
+	 #trainTable {
+		font-size: 30px;
+		height: 80px;
+		font-family: "Gill Sans", sans-serif;
+	}
+
+	.panel-title {
+		font-size: 35px;
+		height: 80px;
+		font-family: "Gill Sans", sans-serif;
+	}
+	
+	#addTrainBtn {
+		font-size: 28px;
+		font-family: "Gill Sans", sans-serif;
+	}
+
+	
+
+	footer {
+
+		color: white;
+		position: fixed;
+   		left: 0;
+    	bottom: 0;
+    	height: 40px;
+    	width: 100%;
+    	text-align: center;
+    	font-weight: bold;
+    	font-size:25px;
+		
+}
+
+	
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
